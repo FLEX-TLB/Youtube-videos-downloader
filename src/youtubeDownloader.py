@@ -10,11 +10,8 @@ class YouTubeDownloader:
         self.root = root
         self.root.title("YouTube Video Downloader")
 
-        # Load the icon file
-        icon_path = "youtube.ico"
-
-        # Set the icon
-        root.after(100, lambda: root.iconbitmap(icon_path))
+        # Set window icon
+        self.root.iconbitmap("youtube.ico")
 
         # Disable resizing
         self.root.resizable(False, False)
@@ -65,10 +62,6 @@ class YouTubeDownloader:
 
         if not save_path:
             self.status_label.config(text="Error: Please select a save location.")
-            return
-
-        if not url.startswith("https://www.youtube.com/"):
-            self.status_label.config(text="Error: Invalid YouTube URL.")
             return
 
         try:
