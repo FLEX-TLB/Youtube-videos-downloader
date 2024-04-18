@@ -9,4 +9,4 @@ Download YouTube videos with the URL.
 
 ## Download
 
-Get the latest version [here](https://github.com/FLEX-TLB/Automatic-Backup/releases/latest).
+Get the latest version [here](https://github.com/FLEX-TLB/Youtube-videos-downloader/releases/latest).
