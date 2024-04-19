@@ -1,0 +1,3 @@
+If you use cmd to run the source code you will nead these 2 commands :
+pip install tk 
+pip install yt-dlp
