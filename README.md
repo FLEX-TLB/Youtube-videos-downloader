@@ -20,3 +20,9 @@ If you want to create your own executable from the source code. Download [python
 ## License
 
 [MIT](LICENSE) License.
+
+
+## Additional info
+
+the antivirus may report this software as virus because it's a python script, so i recommend to exclude it from the antivirus.If you don't know how, just follow these [steps](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26).
+
